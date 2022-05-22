@@ -2,25 +2,43 @@
 --secondary-color: #4C956C ;
 --accent1-color: #FB5607;
 --accent2-color: #E7C24F;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap');
 
 body {
     background-color: #396E94 ;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #2a593f;
 }
+h1{
+    font-family: 'Permanent Marker', cursive ;
+}
+h2 {
+    margin: 0;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+  }
 footer {
     background-color: #dc4703;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 nav a {
     text-align: center;
     color: #ff702e;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #E7C24F;
@@ -42,26 +60,45 @@ footer a {
 footer a:hover {
     color: #E7C24F;
 }
+footer .social img {
+    padding-top: 15px;
+}
 
 .home-title {
     color: #E7C24F;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .button-box {
     text-align: center;
 }
+.icon {
+    padding-top: 10px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
 .msg {
     background-color: #4C956C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #E7C24F;
 }
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .book, .join {
     background-color: #4C956C;
     color: #244258;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #E7C24F;
@@ -70,6 +107,10 @@ footer a:hover {
 .logo, .icon {
     width: 80px;
 }
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 
 #content {
     max-width: 1600px;
@@ -80,6 +121,9 @@ footer a:hover {
 }
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
 }
 
 #background {
