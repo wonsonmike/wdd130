@@ -193,6 +193,94 @@ footer .social img {
     grid-row:4/9;
 }
 
+/***FAQ PAGE****/
+
+#header {
+    text-align: center;
+    font-size: 200px;
+    color: #dc4703;
+    position: relative;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#safety, #equipment, #other {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #dc4703;
+}
+.titles{
+    display: flex;
+}
+.titles img {
+    height: 80px;
+    position: relative;
+    left: 15px;
+}
+
+/* Accordion styles */
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+.questions {
+    overflow: hidden;
+  }
+  .dropdown {
+    width: 100%;
+    color: #E7C24F;
+    overflow: hidden;
+  }
+  .dropdown-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #4c956c;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+  }
+  .dropdown-label:hover {
+    background: #3b7354;
+  }
+  .dropdown-label::after {
+    content: "❯";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+  }
+  .dropdown-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: black;
+    background: white;
+    transition: all 0.35s;
+  }
+  .dropdown-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: #4c956c;
+    cursor: pointer;
+  }
+  .dropdown-close:hover {
+    background: #3b7354;
+  }
+  
+  input:checked + .dropdown-label {
+    background: #3b7354;
+  }
+  input:checked + .dropdown-label::after {
+    transform: rotate(90deg);
+  }
+  input:checked ~ .dropdown-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
