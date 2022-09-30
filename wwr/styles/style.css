@@ -2,7 +2,7 @@
 --secondary-color: #4C956C ;
 --accent1-color: #FB5607;
 --accent2-color: #E7C24F;*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Permanent+Marker&display=swap');
 
 body {
     background-color: #396E94 ;
@@ -19,7 +19,7 @@ nav {
     justify-content: space-around;
 }
 h1{
-    font-family: 'Permanent Marker', cursive ;
+    font-family: 'Permanent Marker', 'Lobster', cursive ;
 }
 h2 {
     margin: 0;
@@ -28,7 +28,7 @@ h4 {
     color: white;
 }
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, cursive;
   }
 footer {
     background-color: #dc4703;
