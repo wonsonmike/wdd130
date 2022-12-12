@@ -97,8 +97,8 @@ footer .social img {
 
 /*button accent on blue to blue on yellow */
 .button {
-    background-color: var(--primary-color);
-    color: var(--accent-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     text-decoration: none;
     text-align: center;
     font-size: 18px;
@@ -106,10 +106,12 @@ footer .social img {
     border-radius: 5px;
     grid-column: 6/9;
     grid-row: 9/10;
+    filter: brightness(70%);
 }
 .button:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    filter: brightness(100%);
 }
 /*button blue on yello to  */
 .button1 {
@@ -357,6 +359,19 @@ li:hover h2 {
     margin-right: 10%;
 }
 
+
+/*** Contact Us page ***/
+label {
+    color: white;
+}
+
+#feedback {
+    text-align: center;
+}
+#popUp {
+    background-color: var(--secondary-color);
+    text-align: center;
+}
 
 
 @media screen and (max-width: 900px) {
