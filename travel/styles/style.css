@@ -34,7 +34,7 @@ nav {
     justify-content: space-around;
 }
 hr {
-  border-top: 8px solid var(--primary-color);
+  border-top: 8px solid var(--original-blue);
   border-radius: 5px;
   margin-left: 5%;
   margin-right: 5%;
